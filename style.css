@@ -1,0 +1,17 @@
+input[type="button"] {
+    background-color: grey;
+    color:black;
+    border: 1px solid black;
+    width: 100%;
+}
+.orangeButtons input[type="button"] {
+    background-color: orange; /* specificitate: tag < clasa < id */ 
+    color:white;
+    border: 1px solid black;
+    width: 100%;
+}
+input[type="text"] {
+    background-color: white;
+    border: 1px solid black;
+    width: 96.5%;
+}
